@@ -1,3 +1,8 @@
-module github.com/ua-parser/uap-go
+module github.com/KulenovicInes/uap-go
 
-require gopkg.in/yaml.v2 v2.2.1
+go 1.14
+
+require (
+	github.com/ua-parser/uap-core v0.9.0 // indirect
+	gopkg.in/yaml.v2 v2.2.1
+)
